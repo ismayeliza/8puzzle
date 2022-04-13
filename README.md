@@ -1,1 +1,1 @@
-# symmetrical-goggles
+# 8puzzle
