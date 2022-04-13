@@ -15,6 +15,10 @@
 
 #include "Astar.h"
 
+const int initialState1[] = {2,8,3,4,5,7,0,1,6};
+const int initialState2[] = {2,1,6,8,3,5,7,4,0};
+
+
 void Astar::algorithm()
 {
   
