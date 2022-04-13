@@ -11,11 +11,21 @@ using namespace std;
 class Astar {
 
     private:
+        static const int goalState[];
+        static const int initialState1[];
+        static const int initialState2[];
+        
+        float bstar;    //effective branching factor = NG/D
         int ET;         //execution time
         int D;          //depth of tree
         int NG;         //nodes generated
-        float bstar;    //effective branching factor = NG/D
         int TP;         //total path
+        int fn;         //f(n) = h(n) + g(n)
+        int hn;         //h(n) = given value from h functions
+        int gn;         //g(n) level of the node
+    
+        char open[];
+        char closed[];
 
     public:
         Astar();
