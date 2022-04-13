@@ -13,17 +13,17 @@ int main()
 
     return 0;
 }
-void h1Funct()
+void h1Funct()  //counts number of tiles out of place
 {
 
 }
 
-void h2Funct()
+void h2Funct()  //sum of all distances by which the tiles are out of place
 {
 
 }
 
-void hFunct()
+void hFunct()   //non-admissible h function
 {
 
 }
