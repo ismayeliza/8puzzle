@@ -15,12 +15,17 @@
 
 #include "Astar.h"
 
-Astar::printTable1()
+void Astar::algorithm()
+{
+  
+}
+
+void Astar::printTable1()
 {
 
 }
 
-Astar::printTable2()
+void Astar::printTable2()
 {
 
 }
