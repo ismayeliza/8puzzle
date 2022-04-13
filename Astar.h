@@ -12,9 +12,9 @@ class Astar {
 
     private:
         int ET;         //execution time
-        int DT;         //depth of tree
+        int D;          //depth of tree
         int NG;         //nodes generated
-        float bstar;    //nodes generated/depth of tree
+        float bstar;    //effective branching factor = NG/D
         int TP;         //total path
 
     public:
