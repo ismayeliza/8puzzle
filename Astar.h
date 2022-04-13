@@ -19,13 +19,13 @@ class Astar {
 
     public:
         Astar();
-
-        void printTable1();     //prints table for initial state 1
-        void printTable2();     //prints table for initial state 2
-
+        void algorithm();       //complete A* alogorithm
 
     private:
         float executionTime();
+        void printTable1();     //prints table for initial state 1
+        void printTable2();     //prints table for initial state 2
+
 
 };
 
